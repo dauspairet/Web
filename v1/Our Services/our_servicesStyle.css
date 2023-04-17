@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.services {
+    /* background: #EEEEEE; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.navbar {
+    margin-bottom: 100px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  background: black;
+}
+
+header.sticky{
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header .logo{
+  color: #ff6600;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header .navigation{
+  position: relative;
+  display: flex;
+}
+
+header .navigation li{
+  list-style: none;
+  margin-left: 30px;
+}
+
+header .navigation li a{
+  text-decoration: none;
+  color: #ff6600;
+  font-weight: 300;
+}
+
+header.sticky .navigation li a{
+  color: #111;
+}
+header .navigation li a:hover{
+  color: #ffffff;
+}
+
+.serv {
+  padding: 0 6px 2px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projects-history {
+  /* font-family: "Nunito Sans"; */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--black);
+  text-transform: uppercase;
+  margin-bottom: 83px;
+  margin-left: 330px;
+  letter-spacing: 19.8px;
+}
+.flex-wrapper-three {
+  display: flex;
+  align-items: center;
+}
+.relative-wrapper-one {
+  position: relative;
+}
+.relative-wrapper-one:not(:last-of-type) {
+  margin-right: 30px;
+}
+.di {
+  padding: 202px 0 0;
+  position: relative;
+}
+.ellipse-7 {
+  width: 570px;
+  height: 448px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1)
+    ),
+    rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  position: relative;
+}
+.rectangle-31 {
+  width: 570px;
+  height: 426px;
+  background: rgba(145, 104, 72, 0.41);
+  border-radius: 29px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rectangle-32 {
+    width: 570px;
+    height: 426px;
+    background: rgba(145, 104, 72, 0.41);
+    border-radius: 29px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.fluentdesign-ideas-16-filled {
+  padding: 7.5px 7.49px 7.5px 7.5px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 225px;
+  top: 57px;
+}
+.vector {
+  flex: 1;
+  align-self: stretch;
+  object-fit: cover;
+}
+.design-interior {
+  max-width: 326px;
+  /* font-family: "Nunito Sans"; */
+  font-size: 40px;
+  font-weight: 300;
+  line-height: normal;
+  color: var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  left: 122px;
+  top: 260px;
+  letter-spacing: 19.8px;
+}
+.rectangle-33 {
+  width: 270px;
+  height: 178px;
+  background: rgba(145, 104, 72, 0.41);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.rectangle-34 {
+  width: 270px;
+  height: 178px;
+  background-color: rgba(41, 50, 66, 0.78);
+  position: absolute;
+  right: -2px;
+  bottom: -1px;
+}
+.ws {
+  padding: 203px 0 0;
+  position: relative;
+}
+.workshop {
+  width: 356px;
+  /* font-family: "Nunito Sans"; */
+  font-size: 37px;
+  font-weight: 300;
+  line-height: normal;
+  color: var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  left: 101px;
+  top: 306px;
+  letter-spacing: 18.32px;
+}
+.vector-two {
+  width: 21.05%;
+  height: 16.59%;
+  position: absolute;
+  left: 225px;
+  top: 69px;
+}
+.rectangle-35 {
+  width: 270px;
+  height: 178px;
+  background: rgba(145, 104, 72, 0.41);
+  position: absolute;
+  left: 4px;
+  bottom: -1px;
+}
+.rectangle-36 {
+  width: 270px;
+  height: 178px;
+  background-color: rgba(41, 50, 66, 0.78);
+  position: absolute;
+  right: -6px;
+  bottom: -2px;
+}

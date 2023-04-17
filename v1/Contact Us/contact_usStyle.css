@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    scroll-behavior: smooth;
+  }
+  
+.contact-btm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contc {
+    margin-bottom: 44px;
+    padding: 0 4px 4px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flex-wrapper-three {
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex-wrapper-three:not(:last-of-type) {
+    margin-bottom: 27px;
+  }
+  .name-two {
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 30px;
+    border-radius: 11px;
+    padding: 23px 430px 22px 25px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(145, 104, 72, 1);
+  }
+  .name {
+    color: rgba(41, 50, 66, 0.6);
+    flex: 1;
+    align-self: stretch;
+    letter-spacing: 15.24px;
+    font-family: var(--nunito-sans-24-semi-bold-family);
+    font-size: var(--nunito-sans-24-semi-bold-size);
+    font-weight: var(--nunito-sans-24-semi-bold-weight);
+    line-height: var(--nunito-sans-24-semi-bold-line-height);
+  }
+  .email {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 11px;
+    padding: 23px 378px 22px 40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(145, 104, 72, 1);
+  }
+  .flex-wrapper-five {
+    margin-right: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .subject-two {
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 172px;
+    border-radius: 11px;
+    padding: 12px 24px 12px 25px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(145, 104, 72, 1);
+  }
+  .subject {
+    width: 33.66%;
+    height: 61.11%;
+    color: rgba(41, 50, 66, 0.6);
+    margin-right: 289px;
+    letter-spacing: 15.24px;
+    font-family: var(--nunito-sans-24-semi-bold-family);
+    font-size: var(--nunito-sans-24-semi-bold-size);
+    font-weight: var(--nunito-sans-24-semi-bold-weight);
+    line-height: var(--nunito-sans-24-semi-bold-line-height);
+  }
+  .gridiconsdropdown {
+    width: calc(10.44% - 31.5px);
+    padding: 22.5px 15.75px 20.25px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .vector {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+  }
+  .submit-button {
+    background-color: rgba(145, 104, 72, 1);
+    border-radius: 11px;
+    padding: 23px 223px 22px 222px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(145, 104, 72, 1);
+  }
+  .submit {
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    color: var(--white-smoke);
+    flex: 1;
+    align-self: stretch;
+    letter-spacing: 5.4px;
+  }
+  .desc {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 11px;
+    padding: 23px 266px 276px 23px;
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid rgba(145, 104, 72, 1);
+  }
+  .btm {
+    background-color: rgba(41, 50, 66, 1);
+    padding: 24px 73.98px 42px 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .fooot {
+    margin-bottom: 30px;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .rectangle-43 {
+    width: 29.31%;
+    align-self: stretch;
+    margin-right: 37px;
+    object-fit: cover;
+  }
+  .flex-wrapper-six {
+    margin-right: 17px;
+    padding: 17px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .phn {
+    margin-bottom: 42px;
+    display: flex;
+    align-items: center;
+  }
+  .icbaseline-local-phone {
+    width: calc(13.46% - 8.75px);
+    margin-right: 13px;
+    padding: 4.38px 4.37px 4.37px 4.38px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+  }
+  .num-6287689566 {
+    height: 74.29%;
+    width: 81.54%;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    display: flex;
+    letter-spacing: 3px;
+  }
+  .loc {
+    margin-bottom: 42px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .icbaseline-location-on {
+    width: calc(13.46% - 14.58px);
+    margin-right: 13px;
+    padding: 2.92px 7.29px 2.91px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+  }
+  .bandung-city {
+    height: 74.29%;
+    width: 81.54%;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    display: flex;
+    margin-top: 3px;
+    letter-spacing: 3px;
+  }
+  .web {
+    margin-left: 4px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .vector-two {
+    width: 12.07%;
+    align-self: stretch;
+    margin-right: 9px;
+    object-fit: cover;
+  }
+  .madju-studio-com {
+    height: 74.29%;
+    width: 84.83%;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    display: flex;
+    margin-top: 6px;
+    letter-spacing: 3px;
+  }
+  .flex-wrapper-seven {
+    margin-right: 18px;
+    padding: 17px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wa {
+    margin-bottom: 42px;
+    margin-left: 1px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .logoswhatsapp-icon {
+    width: 13.67%;
+    align-self: stretch;
+    margin-right: 7.27px;
+    object-fit: cover;
+  }
+  .num-6287689566-two {
+    height: 74.29%;
+    width: 83.46%;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    display: flex;
+    margin-top: 2px;
+    letter-spacing: 3px;
+  }
+  .ig {
+    display: flex;
+    align-items: flex-start;
+  }
+  .ig:not(:last-of-type) {
+    margin-bottom: 43px;
+  }
+  .group {
+    width: 35px;
+    height: 35px;
+    margin-right: 13px;
+  }
+  .madju-studio {
+    height: 74.29%;
+    width: 79.31%;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    display: flex;
+    letter-spacing: 3px;
+  }
+  .logosfacebook {
+    width: 15.09%;
+    align-self: stretch;
+    margin-right: 13px;
+    object-fit: cover;
+  }
+  .madju-studio-two {
+    height: 74.29%;
+    width: 79.31%;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    display: flex;
+    margin-top: 3px;
+    letter-spacing: 3px;
+  }
+  .gm {
+    margin-top: 18px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .logosgoogle-gmail {
+    width: 12.63%;
+    height: 96.67%;
+    margin-right: 10px;
+  }
+  .madju-studio-com-two {
+    height: 86.67%;
+    width: 83.96%;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    display: flex;
+    margin-top: 4px;
+    letter-spacing: 1.44px;
+  }
+  .cr {
+    padding: 2px 487.02px 0 474px;
+    position: relative;
+  }
+  .line-2 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 13.58px;
+  }
+  .rectangle-44 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 50, 66, 1);
+    position: relative;
+  }
+  .cc {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 498px;
+    top: 0;
+  }
+  .copyright-2022-budiman {
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(145, 104, 72, 1);
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    position: relative;
+    letter-spacing: 2.88px;
+  }
+  .phcopyright-light {
+    width: calc(7.5% - 4.85px);
+    height: calc(92.31% - 4.87px);
+    padding: 2.44px 2.42px 2.43px 2.43px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 107.66px;
+    top: 0;
+  }

@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+  scroll-behavior: smooth;
+}
+
+.aboutus {
+    background: #EEEEEE;
+    padding: 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar {
+    margin-bottom: 25.5px;
+  }
+  .discover-our-story {
+    margin-bottom: 35px;
+    margin-left: 398px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    letter-spacing: 0.31em;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+  .flex-wrapper-three {
+    margin-bottom: 31px;
+    padding: 0 0 0 189px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .group-3 {
+    margin-right: 51px;
+    padding: 65px 0 17px 48px;
+    position: relative;
+  }
+  .door {
+    width: 295px;
+    height: 470px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .rectangle-3 {
+    width: 381px;
+    height: 388px;
+    position: relative;
+    box-shadow: 6px 6px 8px -1px var(--transparent-black);
+    border-radius: 191px;
+  }
+  .text-samping-logo {
+    height: 460px;
+    width: 566px;
+    margin-top: 37px;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    color: var(--black);
+    font-style: italic;
+  }
+  /* .lorem-ipsum-dolor-sit-amet-consectetur-emphasis-0 {
+    color: var(--black);
+    font-style: italic;
+    letter-spacing: 9.84px;
+    font-family: var(--nunito-sans-24-bold-family);
+    font-size: var(--nunito-sans-24-bold-size);
+    font-weight: var(--nunito-sans-24-bold-weight);
+    line-height: var(--nunito-sans-24-bold-line-height);
+  } */
+
+  .text-bawah-logo {
+    width: 866px;
+    margin-left: 338px;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    color: var(--black);
+    font-style: italic;
+  }

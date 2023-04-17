@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="our_servicesStyle.css">
+    <title>Our Services</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Madju
+      <!-- <img
+      alt=""
+      class="vector"
+      src="https://static.overlay-tech.com/assets/0fc40cb1-ceb5-416f-8876-55741a97292b.png"
+      /> -->
+    </a>
+    <div class="menuToggle" onclick="toggleMenu();">
+    </div>
+    <ul class="navigation">
+      <li><a href="" onclick="toggleMenu();">Store</a></li>
+      <li><a href="" onclick="toggleMenu();">Projects</a></li>
+      <li><a href="" onclick="toggleMenu();">Services</a></li>
+      <li><a href="" onclick="toggleMenu();">About Us</a></li>
+      <li><a href="" onclick="toggleMenu();">Contact Us</a></li>
+      <li><a href="" onclick="toggleMenu();">Sign In</a></li>
+    </ul>
+  </header>
+    <div class="services">
+        <div class="navbar">
+        </div>
+        <div class="serv">
+            <p class="projects-history">our services</p>
+            <div class="flex-wrapper-three">
+              <div class="relative-wrapper-one">
+                <div class="di">
+                    <div class="rectangle-31"></div>
+                    <div class="ellipse-7">
+                        <!-- <img
+                          alt=""
+                          class="ellipse-7"
+                          src="D:\Prokon Web\v1\Our Services\image\ecllipse.svg"
+                        /> -->
+                    </div>
+                  <div class="fluentdesign-ideas-16-filled">
+                    <img
+                      alt=""
+                      class="vector"
+                      src="https://static.overlay-tech.com/assets/9225c002-183b-4935-a967-02868835788e.svg"
+                    />
+                  </div>
+                  <p class="design-interior">
+                    Design<br/>
+                    interior
+                  </p>
+                </div>
+                <div class="rectangle-33"></div>
+                <div class="rectangle-34"></div>
+              </div>
+              <div class="relative-wrapper-one">
+                <div class="ws">
+                    <div class="rectangle-32"></div>
+                    <div class="ellipse-7">
+                    <!-- <img
+                      alt=""
+                      class="ellipse-7"
+                      src="D:\Prokon Web\v1\Our Services\image\ecllipse.svg"
+                    /> -->
+                    </div>
+                  <p class="workshop">workshop</p>
+                  <img
+                    alt=""
+                    class="vector-two"
+                    src="https://static.overlay-tech.com/assets/b25656e1-34ba-4111-9745-8d543de3e231.svg"
+                  />
+                </div>
+                <div class="rectangle-35"></div>
+                <div class="rectangle-36"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+      window.addEventListener('scroll', function(){
+          const header = document.querySelector('header');
+          header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      function toggleMenu(){
+          const menuToggle = document.querySelector('.menuToggle');
+          const navigation = document.querySelector('.navigation');
+          menuToggle.classList.toggle('active');
+          navigation.classList.toggle('active');
+      }
+  </script>
+</body>
+</html>
